@@ -4,14 +4,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function finder(namesArray, names) {
+function finder(namesArray, namesI) {
     let found = []
     let notArrayname = ''
     for (let i = 0; i < namesArray.length; i++) {
         notArrayname = namesArray[i]
         
         
-       if( notArrayname[0] === names ){
+       if( notArrayname[0] === namesI ){
         found.push(notArrayname)
        }
 
